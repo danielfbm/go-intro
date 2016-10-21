@@ -1,0 +1,5 @@
+FROM index.alauda.cn/library/golang:1.7
+
+COPY performance.go /
+
+CMD ["go", "run" ,"/performance.go"]

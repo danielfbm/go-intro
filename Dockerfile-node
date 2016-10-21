@@ -1,0 +1,5 @@
+FROM index.alauda.cn/library/node:5
+
+COPY fibonacci.js /
+
+CMD ["node", "/fibonacci.js"]
